@@ -12,7 +12,7 @@ fn find_password() {
     let file: Vec<String> = read_file("C:/Users/Manolis/Desktop/adventofcode.txt");
 
     let mut pos: i32 = 50;
-    let mut total_wraps: i32 = 0; // total times passed 0
+    let mut total_wraps: i32 = 0;
 
     for item in file {
         if let Some((dir, n)) = parse_move(&item) {
