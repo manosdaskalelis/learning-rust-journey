@@ -9,7 +9,7 @@ fn main() {
 
 //
 fn find_password() {
-    let file: Vec<String> = read_file("C:/Users/Manolis/Desktop/adventofcode.txt");
+    let file: Vec<String> = read_file("insert file here");
 
     let mut pos: i32 = 50;
     let mut total_wraps: i32 = 0;
